@@ -11,5 +11,9 @@ if __name__ == '__main__':
     plt.ylabel('Valores de entrada')
     plt.xlabel('Amostragem')
     
-    plt.plot(listaValores)
+
+    for serie in listaValores:
+        
+       plt.plot(serie)
     plt.show()
+    
